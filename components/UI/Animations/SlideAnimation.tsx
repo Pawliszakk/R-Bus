@@ -5,6 +5,7 @@ interface SlideAnimationProps {
 	children: React.ReactNode;
 	left?: boolean;
 	delay?: number;
+	onClick?: any;
 }
 
 const SlideAnimation: React.FC<SlideAnimationProps> = ({

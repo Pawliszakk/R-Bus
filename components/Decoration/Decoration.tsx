@@ -1,3 +1,4 @@
+'use client';
 import Section from '../UI/Section/Section';
 import classes from './Decoration.module.scss';
 import { FaTv } from 'react-icons/fa6';
@@ -5,6 +6,7 @@ import { FaSnowflake } from 'react-icons/fa6';
 import { FaLuggageCart } from 'react-icons/fa';
 import { FaWifi } from 'react-icons/fa';
 import Pros from '../UI/Pros/Pros';
+import SlideFromTop from '../UI/Animations/SlideFromTop';
 const Decoration = () => {
 	const decorationData: { icon: JSX.Element; text: string }[] = [
 		{
@@ -29,7 +31,7 @@ const Decoration = () => {
 		<Section className={classes.decoration}>
 			<div className={classes.box}>
 				{decorationData.map((pros, i) => (
-					<Pros key={i} icon={pros.icon} text={pros.text} />
+					<Pros key={i} index={i} icon={pros.icon} text={pros.text} />
 				))}
 			</div>
 		</Section>

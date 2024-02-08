@@ -1,3 +1,5 @@
+'use client';
+import SlideFromBottom from '../Animations/SlideFromBottom';
 import classes from './ButtonCta.module.scss';
 
 interface ButtonCtaProps {
@@ -7,9 +9,9 @@ interface ButtonCtaProps {
 
 const ButtonCta: React.FC<ButtonCtaProps> = ({ children, className }) => {
 	return (
-		<button className={`${classes.button} ${className ? className : ''}`}>
-			{children}
-		</button>
+		<SlideFromBottom className={classes.button}>
+			<button className={`${className ? className : ''}`}>{children}</button>
+		</SlideFromBottom>
 	);
 };
 

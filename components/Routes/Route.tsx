@@ -1,3 +1,5 @@
+'use client';
+import SlideAnimation from '../UI/Animations/SlideAnimation';
 import classes from './Routes.module.scss';
 
 interface RouteProps {
@@ -18,7 +20,10 @@ const Route: React.FC<RouteProps> = ({
 	mapSrc,
 }) => {
 	return (
-		<div className={`${classes.route} ${france ? classes.france : ''}`}>
+		<SlideAnimation
+			className={`${classes.route} ${france ? classes.france : ''}`}
+			left={france}
+		>
 			<div className={classes.content}>
 				<span>
 					{country}
@@ -45,7 +50,7 @@ const Route: React.FC<RouteProps> = ({
 					title={`Trasy firmy r-bus na obszarze: ${country}`}
 				></iframe>
 			</div>
-		</div>
+		</SlideAnimation>
 	);
 };
 

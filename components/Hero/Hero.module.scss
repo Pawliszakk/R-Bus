@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-direction: column;
 	padding-bottom: 2rem;
 	&::before {
 		position: absolute;

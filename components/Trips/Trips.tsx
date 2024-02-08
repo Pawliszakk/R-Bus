@@ -1,3 +1,5 @@
+'use client';
+import SlideAnimation from '../UI/Animations/SlideAnimation';
 import ButtonCta from '../UI/Buttons/ButtonCta';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
@@ -8,7 +10,7 @@ const Trips = () => {
 		<Section dark>
 			<SectionTitle>Wyjazdy</SectionTitle>
 
-			<div className={classes.box}>
+			<SlideAnimation className={classes.box}>
 				<span>
 					<strong> Piątek - z Polski</strong>
 					<img src="/assets/flags/polandFlag.JPG" alt="flaga polski" />
@@ -17,7 +19,7 @@ const Trips = () => {
 					<strong>Sobota - z Francji</strong>
 					<img src="/assets/flags/franceFlag.JPG" alt="flaga francji" />
 				</span>
-			</div>
+			</SlideAnimation>
 
 			<ButtonCta>Zarezerwuj</ButtonCta>
 		</Section>

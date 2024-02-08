@@ -1,0 +1,85 @@
+.image {
+	position: relative;
+	cursor: pointer;
+	margin: 3rem 0;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+		rgba(0, 0, 0, 0.22) 0px 10px 10px;
+	transition: transform 0.3s;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	&::before {
+		position: absolute;
+		content: 'R-BUS';
+		bottom: 5px;
+		right: 5px;
+		font-size: 2rem;
+		font-weight: 700;
+		color: rgba(255, 255, 255, 0.3);
+	}
+	.otherSide {
+		padding: 1rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: rgba(0, 0, 0, 0.8);
+		text-align: center;
+		opacity: 0;
+		transition: opacity 0.3s;
+		svg {
+			font-size: 3rem;
+		}
+		span {
+			font-size: 1rem;
+			font-weight: 200;
+		}
+	}
+}
+
+@media (min-width: 400px) {
+	.box {
+		.image {
+			width: 150px;
+			height: 150px;
+		}
+	}
+}
+@media (min-width: 576px) {
+	.image {
+		width: 200px;
+		height: 200px;
+		.otherSide {
+			padding: 3rem;
+			svg {
+				font-size: 5rem;
+			}
+			span {
+				font-size: 1.6rem;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.image {
+		width: 250px;
+		height: 250px;
+		&:hover .otherSide {
+			opacity: 1;
+		}
+		&:hover {
+			transform: scale(0.95);
+		}
+	}
+}

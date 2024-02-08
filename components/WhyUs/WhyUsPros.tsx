@@ -1,7 +1,9 @@
+'use client';
 import classes from './WhyUsPros.module.scss';
 import { FaClock } from 'react-icons/fa6';
 import { FaStopwatch } from 'react-icons/fa6';
 import { FaBus } from 'react-icons/fa';
+import SlideFromTop from '../UI/Animations/SlideFromTop';
 const WhyUsPros = () => {
 	const prosData: { icon: JSX.Element; title: string; description: string }[] =
 		[
@@ -28,13 +30,13 @@ const WhyUsPros = () => {
 	return (
 		<div className={classes.box}>
 			{prosData.map((item, i) => (
-				<div className={classes.pros} key={i}>
+				<SlideFromTop className={classes.pros} key={i} index={i}>
 					<div className={classes.icon}>{item.icon}</div>
 					<div className={classes.text}>
 						<strong>{item.title}</strong>
 						<p>{item.description}</p>
 					</div>
-				</div>
+				</SlideFromTop>
 			))}
 		</div>
 	);
