@@ -4,10 +4,16 @@
 	margin: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
 :root {
 	--main-color: #292826;
 	--main-lighter: #433b34;
 	--main-darker: #20201e;
 	--main-darkest: #141413;
 	--cta-color: #d7711d;
+	--cta-darker: #b05a13;
 }
