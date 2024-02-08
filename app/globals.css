@@ -17,3 +17,7 @@ html {
 	--cta-color: #d7711d;
 	--cta-darker: #b05a13;
 }
+
+body {
+	background-color: var(--main-color);
+}
