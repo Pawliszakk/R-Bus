@@ -8,7 +8,7 @@ const HeroContent = () => {
 				<img src="/assets/logo/logo.png" />
 				<span>R-BUS</span>
 			</div>
-			<p>"Podróżuj z nami - komfort i pewność."</p>
+			<p>&quot;Podróżuj z nami - komfort i pewność.&quot;</p>
 			<h1>
 				Przewóz osób i paczek
 				<span>Polska - Francja</span>
