@@ -3,7 +3,7 @@ import HeroContent from './HeroContent';
 
 const Hero = () => {
 	return (
-		<div className={classes.hero}>
+		<div className={classes.hero} id="home">
 			<HeroContent />
 		</div>
 	);

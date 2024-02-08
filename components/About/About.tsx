@@ -26,7 +26,7 @@ const About = () => {
 	];
 
 	return (
-		<Section>
+		<Section id="o-nas">
 			<SectionTitle>Oferujemy</SectionTitle>
 
 			<div className={classes.box}>
