@@ -22,6 +22,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<div>
+					<div id="overlay-root"></div>
 					<NavBar />
 					{children}
 				</div>

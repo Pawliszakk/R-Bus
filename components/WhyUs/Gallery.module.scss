@@ -30,6 +30,33 @@
 	}
 }
 
+.backdropPhoto {
+	width: 80%;
+	max-width: 700px;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.close {
+		display: block;
+		margin-top: 0.5em;
+		border: none;
+		padding: 0.5em 1em;
+		font-size: 2rem;
+		background-color: #d53417;
+		margin-left: auto;
+		color: #fff;
+		border-radius: 5px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+		transition: background-color 0.3s;
+		cursor: pointer;
+		&:hover {
+			background-color: rgb(178, 39, 14);
+		}
+	}
+}
 @media (min-width: 400px) {
 	.box {
 		.image {
