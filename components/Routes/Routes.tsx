@@ -19,7 +19,7 @@ const Routes = () => {
 					mapSrc={polandData.mapSrc}
 				/>
 
-				<hr />
+				<div className={classes.divider}></div>
 				<Route
 					country={franceData.country}
 					flagSrc={franceData.flagSrc}

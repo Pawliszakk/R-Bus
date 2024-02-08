@@ -7,7 +7,6 @@ interface NavListProps {
 }
 
 const NavList: React.FC<NavListProps> = (props) => {
-
 	const navItems = [
 		{ name: 'O nas', href: '#o-nas' },
 		{ name: 'Wyjazdy', href: '#wyjazdy' },
@@ -20,7 +19,7 @@ const NavList: React.FC<NavListProps> = (props) => {
 			<ul>
 				{navItems.map((item, i) => (
 					<li key={i} onClick={props.onToggle}>
-						<Link href={item.href}>{item.name}</Link>
+						<Link href={`/${item.href}`}>{item.name}</Link>
 					</li>
 				))}
 			</ul>

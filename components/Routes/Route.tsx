@@ -1,6 +1,6 @@
 'use client';
 import SlideAnimation from '../UI/Animations/SlideAnimation';
-import classes from './Routes.module.scss';
+import classes from './Route.module.scss';
 
 interface RouteProps {
 	country: string;

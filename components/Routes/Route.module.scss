@@ -3,6 +3,7 @@
 	padding: 1rem;
 	.content {
 		width: 100%;
+		color: #fff;
 		span {
 			display: flex;
 			justify-content: center;
@@ -110,6 +111,7 @@
 }
 @media (min-width: 992px) {
 	.route {
+		margin: 5rem 0;
 		width: 950px;
 		display: flex;
 		&.france {
