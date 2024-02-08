@@ -11,10 +11,10 @@ html {
 }
 
 :root {
-	--main-color: #292826;
+	--main-color: #161614;
 	--main-lighter: #433b34;
-	--main-darker: #20201e;
-	--main-darkest: #141413;
+	--main-darker: #121210;
+	--main-darkest: #171716;
 	--cta-color: #d7711d;
 	--cta-darker: #b05a13;
 }
