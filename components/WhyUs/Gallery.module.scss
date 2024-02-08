@@ -51,12 +51,6 @@
 				font-weight: 200;
 			}
 		}
-		&:hover .otherSide {
-			opacity: 1;
-		}
-		&:hover {
-			transform: scale(0.95);
-		}
 	}
 }
 
@@ -117,6 +111,12 @@
 		.image {
 			width: 250px;
 			height: 250px;
+			&:hover .otherSide {
+				opacity: 1;
+			}
+			&:hover {
+				transform: scale(0.95);
+			}
 		}
 	}
 }

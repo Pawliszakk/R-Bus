@@ -23,7 +23,7 @@ const Reviews = () => {
 				/>
 			</div>
 
-			<p>
+			<p className={classes.paragraph}>
 				Po więcej opinii, zparaszamy na naszego{' '}
 				<a
 					href="https://www.facebook.com/profile.php?id=100064112472168"

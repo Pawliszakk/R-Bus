@@ -5,3 +5,45 @@
 	align-items: center;
 	flex-direction: column;
 }
+.paragraph {
+	font-size: 1.4rem;
+	a {
+		position: relative;
+		text-decoration: none;
+		color: #4267b2;
+		font-weight: bold;
+		z-index: 1;
+		border-bottom: 2px solid #4267b2;
+		transition: color 0.3s;
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			transform: scaleY(0);
+			background-color: #4267b2;
+			z-index: -1;
+			transform-origin: bottom;
+			transition: transform 0.3s;
+		}
+		&:hover::before {
+			transform: scaleY(100%);
+		}
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+@media (min-width: 576px) {
+	.box {
+		flex-direction: row;
+
+		flex-wrap: wrap;
+	}
+
+	.paragraph {
+		font-size: 1.6rem;
+	}
+}
