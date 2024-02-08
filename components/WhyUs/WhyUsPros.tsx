@@ -4,6 +4,7 @@ import { FaClock } from 'react-icons/fa6';
 import { FaStopwatch } from 'react-icons/fa6';
 import { FaBus } from 'react-icons/fa';
 import SlideFromTop from '../UI/Animations/SlideFromTop';
+import BorderIcon from '../UI/Icons/BorderIcon';
 const WhyUsPros = () => {
 	const prosData: { icon: JSX.Element; title: string; description: string }[] =
 		[
@@ -31,7 +32,7 @@ const WhyUsPros = () => {
 		<div className={classes.box}>
 			{prosData.map((item, i) => (
 				<SlideFromTop className={classes.pros} key={i} index={i}>
-					<div className={classes.icon}>{item.icon}</div>
+					<BorderIcon>{item.icon}</BorderIcon>
 					<div className={classes.text}>
 						<strong>{item.title}</strong>
 						<p>{item.description}</p>
