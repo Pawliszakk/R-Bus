@@ -5,6 +5,7 @@ import { FaMapMarkedAlt } from 'react-icons/fa';
 import { FaPeopleGroup, FaTruckFast } from 'react-icons/fa6';
 import { FaUserShield } from 'react-icons/fa';
 import ButtonCta from '../UI/Buttons/ButtonCta';
+import Pros from '../UI/Pros/Pros';
 const About = () => {
 	const offerData: { icon: JSX.Element; text: string }[] = [
 		{
@@ -30,11 +31,8 @@ const About = () => {
 			<SectionTitle>Oferujemy</SectionTitle>
 
 			<div className={classes.box}>
-				{offerData.map((el, i) => (
-					<div key={i} className={classes.pros}>
-						{el.icon}
-						<strong>{el.text}</strong>
-					</div>
+				{offerData.map((pros, i) => (
+					<Pros key={i} icon={pros.icon} text={pros.text} />
 				))}
 			</div>
 

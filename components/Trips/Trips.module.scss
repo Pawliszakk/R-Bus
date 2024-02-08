@@ -1,0 +1,61 @@
+.box {
+	margin: 3rem 0;
+	padding: 1rem;
+	span {
+		margin: 2rem 0;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		strong {
+			font-weight: 400;
+			font-size: 2rem;
+		}
+
+		img {
+			margin-left: 2em;
+			width: 40px;
+		}
+	}
+}
+
+@media (min-width: 400px) {
+	.box {
+		span {
+			strong {
+				font-size: 2.4rem;
+			}
+
+			img {
+				margin-left: 2em;
+				width: 60px;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.box {
+		span {
+			strong {
+				font-size: 2.6rem;
+			}
+
+			img {
+				margin-left: 2em;
+				width: 80px;
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		span {
+			margin: 3rem 0;
+			strong {
+				font-size: 3rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.pros {
+	text-align: center;
+	margin: 4rem 1rem;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	align-items: center;
+	flex-direction: column;
+	svg {
+		font-size: 10rem;
+	}
+	strong {
+		margin-top: 0.5rem;
+		font-weight: 400;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 576px) {
+	.pros {
+		width: 300px;
+		svg {
+			font-size: 12rem;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.pros {
+		svg {
+			font-size: 12rem;
+		}
+	}
+}
