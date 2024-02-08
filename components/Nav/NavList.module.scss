@@ -36,12 +36,31 @@
 		ul {
 			display: flex;
 			li {
+				text-transform: uppercase;
+				font-weight: 400;
 				list-style: none;
 				margin: 0 1.5rem;
 				font-size: 2rem;
 				a {
+					position: relative;
 					text-decoration: none;
 					color: #fff;
+					&::before {
+						position: absolute;
+						content: '';
+						bottom: -2px;
+						left: 0;
+						width: 100%;
+						height: 2px;
+						transform: scaleX(0);
+						transform-origin: right;
+						background-color: #fff;
+						transition: transform 0.3s;
+					}
+				}
+				&:hover a::before {
+					transform: scaleX(1);
+					transform-origin: left;
 				}
 			}
 		}

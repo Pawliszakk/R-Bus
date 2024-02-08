@@ -1,0 +1,11 @@
+.section {
+	padding: 3rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--main-color);
+	&.dark {
+		background-color: var(--main-darker);
+	}
+}

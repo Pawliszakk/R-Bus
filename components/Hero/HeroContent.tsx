@@ -1,4 +1,4 @@
-import ButtonCta from '../UI/ButtonCta';
+import ButtonCta from '../UI/Buttons/ButtonCta';
 import classes from './HeroContent.module.scss';
 
 const HeroContent = () => {
@@ -8,12 +8,11 @@ const HeroContent = () => {
 				<img src="/assets/logo/logo.png" />
 				<span>R-BUS</span>
 			</div>
-
+			<p>"Podróżuj z nami - komfort i pewność."</p>
 			<h1>
 				Przewóz osób i paczek
 				<span>Polska - Francja</span>
 			</h1>
-
 			<ButtonCta>Skontaktuj się</ButtonCta>
 		</div>
 	);
