@@ -6,13 +6,13 @@ const Gallery = () => {
 			<div>
 				<div className={classes.image}>
 					<img
-						src="/assets/gallery/gallery1.JPG"
+						src="/assets/gallery/gallery1.jpg"
 						alt="Zdjęcie busów z floty r-bus"
 					/>
 				</div>
 				<div className={classes.image}>
 					<img
-						src="/assets/gallery/gallery2.JPG"
+						src="/assets/gallery/gallery2.jpg"
 						alt="Zdjęcie busów z floty r-bus"
 					/>
 				</div>
@@ -20,13 +20,13 @@ const Gallery = () => {
 			<div>
 				<div className={classes.image}>
 					<img
-						src="/assets/gallery/gallery3.JPG"
+						src="/assets/gallery/gallery3.jpg"
 						alt="Zdjęcie busów z floty r-bus"
 					/>
 				</div>
 				<div className={classes.image}>
 					<img
-						src="/assets/gallery/gallery4.JPG"
+						src="/assets/gallery/gallery4.jpg"
 						alt="Zdjęcie busów z floty r-bus"
 					/>
 				</div>

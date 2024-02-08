@@ -4,7 +4,7 @@ import classes from './Logo.module.scss';
 const Logo = () => {
 	return (
 		<Link href="#home" className={classes.logo}>
-			<img src="/assets/logo/logo.png" />
+			<img src="/assets/logo/logo.png" alt="Zdjęcie loga firmy r-bus" />
 			<div className={classes.text}>
 				<span>R-Bus</span>
 				<p>Przewozy Polska-Francja</p>
