@@ -1,8 +1,8 @@
-import classes from './Pros.module.scss';
+import classes from './WhyUsPros.module.scss';
 import { FaClock } from 'react-icons/fa6';
 import { FaStopwatch } from 'react-icons/fa6';
 import { FaBus } from 'react-icons/fa';
-const Pros = () => {
+const WhyUsPros = () => {
 	const prosData: { icon: JSX.Element; title: string; description: string }[] =
 		[
 			{
@@ -40,4 +40,4 @@ const Pros = () => {
 	);
 };
 
-export default Pros;
+export default WhyUsPros;
