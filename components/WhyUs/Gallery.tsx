@@ -2,11 +2,11 @@
 import { useState } from 'react';
 import Backdrop from '../UI/Backdrop/Backdrop';
 import classes from './Gallery.module.scss';
-import { IoCloseCircle } from 'react-icons/io5';
+import { SlMagnifierAdd } from 'react-icons/sl';
 
 const Gallery = () => {
-	const [isGallery, setIsGallery] = useState(true);
-	const [currentPhoto, setCurrentPhoto] = useState<null | number>(1);
+	const [isGallery, setIsGallery] = useState(false);
+	const [currentPhoto, setCurrentPhoto] = useState<null | number>(null);
 
 	const showGalleryHandler = (number: number) => {
 		setIsGallery(true);
@@ -22,12 +22,20 @@ const Gallery = () => {
 						src="/assets/gallery/gallery1.jpg"
 						alt="Zdjęcie busów z floty r-bus"
 					/>
+					<div className={classes.otherSide}>
+						<SlMagnifierAdd />
+						<span>Kliknij, aby przybliżyć zdjęcie</span>
+					</div>
 				</div>
 				<div className={classes.image} onClick={() => showGalleryHandler(2)}>
 					<img
 						src="/assets/gallery/gallery2.jpg"
 						alt="Zdjęcie busów z floty r-bus"
-					/>
+					/>{' '}
+					<div className={classes.otherSide}>
+						<SlMagnifierAdd />
+						<span>Kliknij, aby przybliżyć zdjęcie</span>
+					</div>
 				</div>
 			</div>
 			<div>
@@ -35,13 +43,21 @@ const Gallery = () => {
 					<img
 						src="/assets/gallery/gallery3.jpg"
 						alt="Zdjęcie busów z floty r-bus"
-					/>
+					/>{' '}
+					<div className={classes.otherSide}>
+						<SlMagnifierAdd />
+						<span>Kliknij, aby przybliżyć zdjęcie</span>
+					</div>
 				</div>
 				<div className={classes.image} onClick={() => showGalleryHandler(4)}>
 					<img
 						src="/assets/gallery/gallery4.jpg"
 						alt="Zdjęcie busów z floty r-bus"
-					/>
+					/>{' '}
+					<div className={classes.otherSide}>
+						<SlMagnifierAdd />
+						<span>Kliknij, aby przybliżyć zdjęcie</span>
+					</div>
 				</div>
 			</div>
 
