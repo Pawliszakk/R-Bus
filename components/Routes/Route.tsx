@@ -17,7 +17,6 @@ const Route: React.FC<RouteProps> = ({
 	citiesLists,
 	mapSrc,
 }) => {
-
 	return (
 		<div className={`${classes.route} ${france ? classes.france : ''}`}>
 			<div className={classes.content}>
@@ -41,7 +40,10 @@ const Route: React.FC<RouteProps> = ({
 				</div>
 			</div>
 			<div className={classes.map}>
-				<iframe src={mapSrc}></iframe>
+				<iframe
+					src={mapSrc}
+					title={`Trasy firmy r-bus na obszarze: ${country}`}
+				></iframe>
 			</div>
 		</div>
 	);
