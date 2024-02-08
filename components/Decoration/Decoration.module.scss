@@ -18,10 +18,7 @@
 .box {
 	z-index: 1;
 	max-width: 1400px;
-}
-
-@media (min-width: 576px) {
-	.box {
+	@media (min-width: 576px) {
 		display: flex;
 		justify-content: center;
 		align-items: center;

@@ -13,7 +13,7 @@ const Pros: React.FC<ProsProps> = ({ icon, text, index }) => {
 		<SlideFromTop index={index}>
 			<div className={classes.pros}>
 				{icon}
-				<strong>{text}</strong>
+				<span>{text}</span>
 			</div>
 		</SlideFromTop>
 	);

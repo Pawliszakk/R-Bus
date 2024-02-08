@@ -17,10 +17,7 @@
 			width: 40px;
 		}
 	}
-}
-
-@media (min-width: 400px) {
-	.box {
+	@media (min-width: 400px) {
 		span {
 			strong {
 				font-size: 2.4rem;
@@ -32,10 +29,8 @@
 			}
 		}
 	}
-}
 
-@media (min-width: 576px) {
-	.box {
+	@media (min-width: 576px) {
 		span {
 			strong {
 				font-size: 2.6rem;
@@ -47,9 +42,7 @@
 			}
 		}
 	}
-}
-@media (min-width: 768px) {
-	.box {
+	@media (min-width: 768px) {
 		span {
 			margin: 3rem 0;
 			strong {

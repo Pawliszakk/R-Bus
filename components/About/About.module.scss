@@ -2,10 +2,7 @@
 	margin-top: 3rem;
 	padding: 2rem;
 	max-width: 1400px;
-}
-
-@media (min-width: 576px) {
-	.box {
+	@media (min-width: 576px) {
 		display: flex;
 		justify-content: center;
 		align-items: center;

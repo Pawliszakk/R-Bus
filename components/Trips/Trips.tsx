@@ -7,7 +7,7 @@ import classes from './Trips.module.scss';
 
 const Trips = () => {
 	return (
-		<Section dark>
+		<Section dark id="wyjazdy">
 			<SectionTitle>Wyjazdy</SectionTitle>
 
 			<SlideAnimation className={classes.box}>

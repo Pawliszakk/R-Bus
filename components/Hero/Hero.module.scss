@@ -6,8 +6,8 @@
 	background-size: cover;
 	z-index: 0;
 	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: flex-start;
+	align-items: center;
 	flex-direction: column;
 	padding-bottom: 2rem;
 	&::before {
@@ -20,16 +20,11 @@
 		z-index: 0;
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-}
-
-@media (min-width: 768px) {
-	.hero {
+	@media (min-width: 768px) {
 		background-image: url('/assets/hero/heroDesktop.JPG');
 	}
-}
 
-@media (min-width: 992px) {
-	.hero {
+	@media (min-width: 992px) {
 		align-items: center;
 	}
 }

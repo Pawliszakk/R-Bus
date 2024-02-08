@@ -3,11 +3,14 @@
 	a {
 		display: block;
 		background-color: var(--cta-color);
+		text-align: center;
 		padding: 0.5em 1em;
-		margin: 1rem 0;
+		margin: 1rem auto;
 		border-radius: 5px;
 		font-size: 2.5rem;
 		text-decoration: none;
+		max-width: 300px;
+
 		color: #fff;
 		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
 			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -17,10 +20,12 @@
 			transform: scale(0.95);
 		}
 	}
-}
 
-@media (min-width: 768px) {
-	.button {
-		font-size: 3rem;
+	@media (min-width: 768px) {
+		a {
+			font-size: 3rem;
+		}
 	}
 }
+
+

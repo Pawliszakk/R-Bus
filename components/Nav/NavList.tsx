@@ -9,8 +9,8 @@ interface NavListProps {
 const NavList: React.FC<NavListProps> = (props) => {
 	const navItems = [
 		{ name: 'O nas', href: '#o-nas' },
-		{ name: 'Wyjazdy', href: '#wyjazdy' },
 		{ name: 'Trasy', href: '#trasy' },
+		{ name: 'Wyjazdy', href: '#wyjazdy' },
 		{ name: 'Kontakt', href: '#kontakt' },
 	];
 

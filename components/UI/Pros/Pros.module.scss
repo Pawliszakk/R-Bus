@@ -8,23 +8,18 @@
 	svg {
 		font-size: 10rem;
 	}
-	strong {
+	span {
 		margin-top: 0.5rem;
 		font-weight: 400;
 		font-size: 2rem;
 	}
-}
-
-@media (min-width: 576px) {
-	.pros {
+	@media (min-width: 576px) {
 		width: 300px;
 		svg {
 			font-size: 12rem;
 		}
 	}
-}
-@media (min-width: 1200px) {
-	.pros {
+	@media (min-width: 1200px) {
 		svg {
 			font-size: 12rem;
 		}

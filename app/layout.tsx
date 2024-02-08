@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import NavBar from '@/components/Nav/Navbar';
 import Footer from '@/components/Footer/Footer';
+import PhoneIcon from '@/components/UI/Icons/PhoneIcon';
 
 const inter = Inter({
 	weight: ['200', '400', '700'],
@@ -21,13 +22,14 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="pl">
 			<body className={inter.className}>
 				<div>
 					<div id="overlay-root"></div>
 					<NavBar />
 					<main>{children}</main>
 					<Footer />
+					<PhoneIcon />
 				</div>
 			</body>
 		</html>
