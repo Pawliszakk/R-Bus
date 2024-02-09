@@ -26,20 +26,17 @@ const Contact = () => {
 						</BorderIcon>
 						<p>515 325 201</p>
 					</div>
-					<div className={classes.option}>
+					<a
+						href="https://www.facebook.com/profile.php?id=100064112472168"
+						rel="noopener"
+						target="_blank"
+						className={classes.option}
+					>
 						<BorderIcon>
 							<FaFacebookF />
 						</BorderIcon>
-						<p>
-							<a
-								href="https://www.facebook.com/profile.php?id=100064112472168"
-								rel="noopener"
-								target="_blank"
-							>
-								Facebook
-							</a>
-						</p>
-					</div>
+						<p>Facebook</p>
+					</a>
 				</SlideAnimation>
 				<SlideAnimation left className={classes.logo}>
 					<img src="/assets/logo/logo.png" alt="Zdjęcie loga firmy r-bus" />

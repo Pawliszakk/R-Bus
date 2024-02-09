@@ -3,15 +3,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 	flex-direction: column;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
 	p {
 		margin-top: 1em;
-		font-size: 2rem;
-		a {
-			color: #fff;
-			text-decoration: none;
-			font-weight: bold;
-		}
 	}
 	@media (min-width: 768px) {
 		flex-direction: row;
