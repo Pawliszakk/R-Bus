@@ -1,6 +1,7 @@
 .decoration {
 	position: relative;
-	background-image: url('/assets/hero/heroDesktop.JPG');
+	background-image: url('/assets/gallery/gallery1.jpg');
+
 	background-size: cover;
 	background-position: center;
 	&::before {
@@ -12,6 +13,9 @@
 		content: '';
 		background-color: rgba(0, 0, 0, 0.9);
 		z-index: 0;
+	}
+	@media (min-width: 1200px) {
+		background-image: url('/assets/hero/heroDesktop.JPG');
 	}
 }
 

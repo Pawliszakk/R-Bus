@@ -18,6 +18,7 @@ const Photo: React.FC<PhotoProps> = ({ showGalleryHandler, photoNumber }) => {
 				<img
 					src={`/assets/gallery/gallery${photoNumber}.jpg`}
 					alt="Zdjęcie busów z floty r-bus"
+					loading="lazy"
 				/>
 				<div className={classes.otherSide}>
 					<SlMagnifierAdd />

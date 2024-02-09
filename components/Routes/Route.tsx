@@ -30,7 +30,6 @@ const Route: React.FC<RouteProps> = ({
 					<img src={`/assets/flags/${flagSrc}`} alt={flagAlt} />
 				</span>
 				<hr />
-
 				<div className={classes.lists}>
 					<ul>
 						{citiesLists[0].map((city) => (
