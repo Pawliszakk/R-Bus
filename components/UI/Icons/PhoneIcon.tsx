@@ -3,17 +3,13 @@ import { useEffect, useState } from 'react';
 
 import classes from './PhoneIcon.module.scss';
 
-import { motion, AnimatePresence } from 'framer-motion';
-import Portal from '@/lib/Portal';
-import { FaPhone } from 'react-icons/fa';
 import Link from 'next/link';
+import Portal from '@/lib/Portal';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FaPhone } from 'react-icons/fa';
 
 const PhoneIcon = () => {
 	const [isClient, setIsClient] = useState(false);
-
-	useEffect(() => {
-		setIsClient(true);
-	}, []);
 
 	const [isScrolled, setIsScrolled] = useState(false);
 	const handleScroll = () => {
@@ -21,6 +17,7 @@ const PhoneIcon = () => {
 	};
 
 	useEffect(() => {
+		setIsClient(true);
 		window.addEventListener('scroll', handleScroll);
 	}, []);
 
