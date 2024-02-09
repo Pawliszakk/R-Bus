@@ -1,7 +1,7 @@
+import classes from './Reviews.module.scss';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
 import Review from './Review';
-import classes from './Reviews.module.scss';
 
 const Reviews = () => {
 	const reviewsData: { text: string; author: string }[] = [

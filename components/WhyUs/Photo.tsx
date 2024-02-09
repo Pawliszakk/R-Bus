@@ -1,6 +1,6 @@
 'use client';
-import { SlMagnifierAdd } from 'react-icons/sl';
 import classes from './Photo.module.scss';
+import { SlMagnifierAdd } from 'react-icons/sl';
 import SlideAnimation from '../UI/Animations/SlideAnimation';
 
 interface PhotoProps {

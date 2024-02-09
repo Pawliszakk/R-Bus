@@ -1,8 +1,8 @@
 'use client';
-import Portal from '@/lib/Portal';
-import classes from './Backdrop.module.scss';
-import { motion } from 'framer-motion';
 import { useEffect } from 'react';
+import classes from './Backdrop.module.scss';
+import Portal from '@/lib/Portal';
+import { motion } from 'framer-motion';
 
 interface BackdropProps {
 	onClose: () => void;

@@ -1,15 +1,16 @@
 'use client';
-import SlideFromTop from '../UI/Animations/SlideFromTop';
 import classes from './Review.module.scss';
+import SlideAnimation from '../UI/Animations/SlideAnimation';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 interface ReviewProps {
 	text: string;
 	author: string;
 }
 
-const Review: React.FC<ReviewProps> = ({ text, author}) => {
+const Review: React.FC<ReviewProps> = ({ text, author }) => {
 	return (
-		<div>
+		<SlideAnimation>
+			{' '}
 			<div className={classes.review}>
 				<p>
 					<RiDoubleQuotesL className={classes.leftQuote} />
@@ -18,7 +19,7 @@ const Review: React.FC<ReviewProps> = ({ text, author}) => {
 				</p>
 				<span>{author}</span>
 			</div>
-		</div>
+		</SlideAnimation>
 	);
 };
 

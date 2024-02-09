@@ -5,6 +5,7 @@ import { FaStopwatch } from 'react-icons/fa6';
 import { FaBus } from 'react-icons/fa';
 import SlideFromTop from '../UI/Animations/SlideFromTop';
 import BorderIcon from '../UI/Icons/BorderIcon';
+
 const WhyUsPros = () => {
 	const prosData: { icon: JSX.Element; title: string; description: string }[] =
 		[

@@ -1,9 +1,9 @@
 'use client';
+import classes from './Trips.module.scss';
 import SlideAnimation from '../UI/Animations/SlideAnimation';
 import ButtonCta from '../UI/Buttons/ButtonCta';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
-import classes from './Trips.module.scss';
 
 const Trips = () => {
 	return (

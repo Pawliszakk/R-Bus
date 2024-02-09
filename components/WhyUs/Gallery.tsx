@@ -1,8 +1,7 @@
 'use client';
 import { useState } from 'react';
-import Backdrop from '../UI/Backdrop/Backdrop';
 import classes from './Gallery.module.scss';
-import { SlMagnifierAdd } from 'react-icons/sl';
+import Backdrop from '../UI/Backdrop/Backdrop';
 import Photo from './Photo';
 
 const Gallery = () => {

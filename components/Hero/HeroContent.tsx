@@ -1,7 +1,6 @@
 'use client';
-import SlideAnimation from '../UI/Animations/SlideAnimation';
-import ButtonCta from '../UI/Buttons/ButtonCta';
 import classes from './HeroContent.module.scss';
+import SlideAnimation from '../UI/Animations/SlideAnimation';
 
 const HeroContent = () => {
 	return (

@@ -1,7 +1,9 @@
+'use client';
+import classes from './Contact.module.scss';
+import SlideAnimation from '../UI/Animations/SlideAnimation';
 import BorderIcon from '../UI/Icons/BorderIcon';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
-import classes from './Contact.module.scss';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa6';
 import { FaFacebookF } from 'react-icons/fa6';
@@ -11,7 +13,7 @@ const Contact = () => {
 			<SectionTitle>Kontakt</SectionTitle>
 
 			<div className={classes.box}>
-				<div className={classes.options}>
+				<SlideAnimation className={classes.options}>
 					<div className={classes.option}>
 						<BorderIcon>
 							<FaEnvelope />
@@ -38,14 +40,14 @@ const Contact = () => {
 							</a>
 						</p>
 					</div>
-				</div>
-				<div className={classes.logo}>
+				</SlideAnimation>
+				<SlideAnimation left className={classes.logo}>
 					<img src="/assets/logo/logo.png" alt="Zdjęcie loga firmy r-bus" />
 					<div className={classes.text}>
 						<span>R-Bus</span>
 						<p>Przewozy Polska-Francja</p>
 					</div>
-				</div>
+				</SlideAnimation>
 			</div>
 		</Section>
 	);

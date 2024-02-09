@@ -1,9 +1,9 @@
 import { franceData, polandData } from '@/data/RoutesData';
+import classes from './Routes.module.scss';
 import ButtonCta from '../UI/Buttons/ButtonCta';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
 import Route from './Route';
-import classes from './Routes.module.scss';
 
 const Routes = () => {
 	return (

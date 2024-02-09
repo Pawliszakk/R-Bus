@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-import Logo from './Logo';
 import classes from './Navbar.module.scss';
+import Logo from './Logo';
 import Hamburger from 'hamburger-react';
 import NavList from './NavList';
 

@@ -1,6 +1,6 @@
+import classes from './About.module.scss';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/Section/SectionTitle';
-import classes from './About.module.scss';
 import { FaMapMarkedAlt } from 'react-icons/fa';
 import { FaPeopleGroup, FaTruckFast } from 'react-icons/fa6';
 import { FaUserShield } from 'react-icons/fa';
