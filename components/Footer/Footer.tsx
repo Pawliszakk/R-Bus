@@ -7,7 +7,9 @@ const Footer = () => {
 		<footer className={classes.footer}>
 			<p>
 				R-BUS <span>{currentYear}</span> | Realizacja{' '}
-				<a href="www.pawliszakdev.com">pawliszakDev</a>
+				<a href="https://www.pawliszakdev.com/" rel="noopener" target="_blank">
+					pawliszakDev
+				</a>
 			</p>
 		</footer>
 	);
