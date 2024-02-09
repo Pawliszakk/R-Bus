@@ -4,12 +4,6 @@
 	margin: 0;
 }
 
-html {
-	scroll-behavior: smooth;
-	scroll-padding-top: 60px;
-	font-size: 62.5%;
-}
-
 :root {
 	--main-color: #161614;
 	--main-lighter: #433b34;
@@ -18,7 +12,24 @@ html {
 	--cta-color: #d7711d;
 	--cta-darker: #b05a13;
 }
-
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 60px;
+	font-size: 62.5%;
+	&::-webkit-scrollbar {
+		width: 10px;
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--main-lighter);
+		border-radius: 100vw;
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background-color: var(--cta-color);
+	}
+	&::-webkit-scrollbar-track {
+		background-color: var(--main-darker);
+	}
+}
 body {
 	background-color: var(--main-color);
 	color: #fff;
