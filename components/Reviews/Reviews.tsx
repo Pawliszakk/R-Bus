@@ -14,7 +14,7 @@ const Reviews = () => {
 			author: 'Patrycja, Facebook',
 		},
 		{
-			text: 'Dziekuje bardzo za usluge😉Jestem wdzieczna za komfort, rzetelnosc, punktualnosc I mila atmosfere Bardzo polecam wszystkim ktorzy szukaja transportu Polska Francja, o zobaczenia',
+			text: 'Dziekuje bardzo za miłą obsługe 😉 Jestem wdzieczna za komfort, rzetelnosc, punktualnosc oraz mila atmosfere Bardzo polecam wszystkim którzy szukają transportu Polska Francja, do zobaczenia!',
 			author: 'Iwona, Facebook',
 		},
 	];
