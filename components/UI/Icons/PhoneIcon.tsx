@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 
 import classes from './PhoneIcon.module.scss';
 
-import Link from 'next/link';
 import Portal from '@/lib/Portal';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaPhone } from 'react-icons/fa';
@@ -33,10 +32,10 @@ const PhoneIcon = () => {
 						whileTap={{ scale: 0.5 }}
 					>
 						{isClient && (
-							<Link href="/#kontakt">
+							<a href="tel:515 325 201">
 								<FaPhone />
 								<span>Kontakt</span>
-							</Link>
+							</a>
 						)}
 					</motion.div>
 				</Portal>

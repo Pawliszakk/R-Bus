@@ -15,6 +15,7 @@ const ScrollIcon = () => {
 			className={`${classes.icon} ${classes.heartbeat}`}
 		>
 			<IoIosArrowDown />
+			<span>Scroll down</span>
 		</motion.a>
 	);
 };

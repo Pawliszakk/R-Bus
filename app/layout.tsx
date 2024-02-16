@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 	title: 'R-BUS - Busy Polska - Francja, przewóz osób i paczek.',
 	description:
 		'Potrzebujesz busa z Polski do Francji lub z Francji do Polski? Firma R-Bus zajmuje się przewozem osób i paczek z punktu A do punktu B !',
+		
 };
 
 export default function RootLayout({

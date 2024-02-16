@@ -9,6 +9,10 @@
 	align-items: center;
 	text-decoration: none;
 	color: #fff;
+	span {
+		position: absolute;
+		opacity: 0;
+	}
 	svg {
 		font-size: 4rem;
 	}

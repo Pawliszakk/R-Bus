@@ -14,18 +14,18 @@ const Contact = () => {
 
 			<div className={classes.box}>
 				<SlideAnimation className={classes.options}>
-					<div className={classes.option}>
+					<a href="mailto:rbus_kontakt@op.pl" className={classes.option}>
 						<BorderIcon>
 							<FaEnvelope />
 						</BorderIcon>
 						<p>rbus_kontakt@op.pl</p>
-					</div>
-					<div className={classes.option}>
+					</a>
+					<a href="tel:515 325 201" className={classes.option}>
 						<BorderIcon>
 							<FaPhone />
 						</BorderIcon>
 						<p>515 325 201</p>
-					</div>
+					</a>
 					<a
 						href="https://www.facebook.com/profile.php?id=100064112472168"
 						rel="noopener"

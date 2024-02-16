@@ -28,14 +28,12 @@ const NavBar = () => {
 		};
 	}, [isOpen, navToggleHandler]);
 
-
-    
 	return (
 		<header className={classes.header}>
 			<nav>
 				<Logo />
 				<div className={classes.burger}>
-					<Hamburger toggled={isOpen} toggle={navToggleHandler} />
+					<Hamburger toggled={isOpen} toggle={navToggleHandler}></Hamburger>
 				</div>
 				<NavList isOpen={isOpen} onToggle={navToggleHandler} />
 			</nav>
