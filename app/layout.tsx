@@ -4,6 +4,7 @@ import './globals.css';
 import NavBar from '@/components/Nav/Navbar';
 import Footer from '@/components/Footer/Footer';
 import PhoneIcon from '@/components/UI/Icons/PhoneIcon';
+import CookiesAlert from '@/components/UI/Cookies/CookiesAlert';
 
 const inter = Inter({
 	weight: ['200', '400', '700'],
@@ -14,7 +15,6 @@ export const metadata: Metadata = {
 	title: 'R-BUS - Busy Polska - Francja, przewóz osób i paczek.',
 	description:
 		'Potrzebujesz busa z Polski do Francji lub z Francji do Polski? Firma R-Bus zajmuje się przewozem osób i paczek z punktu A do punktu B !',
-		
 };
 
 export default function RootLayout({
@@ -31,6 +31,7 @@ export default function RootLayout({
 					<main>{children}</main>
 					<Footer />
 					<PhoneIcon />
+					<CookiesAlert />
 				</div>
 			</body>
 		</html>

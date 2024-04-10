@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import classes from './Footer.module.scss';
 
 const Footer = () => {
@@ -11,6 +12,7 @@ const Footer = () => {
 					pawliszakDev
 				</a>
 			</p>
+			<Link href="/polityka-prywatnosci">Polityka prywatności</Link>
 		</footer>
 	);
 };
