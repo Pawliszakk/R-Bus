@@ -22,7 +22,7 @@ const CookiesAlert = () => {
 	return (
 		<>
 			{isClickedOk ? (
-				<div></div>
+				<></>
 			) : (
 				<div className={classes.box}>
 					<p>
