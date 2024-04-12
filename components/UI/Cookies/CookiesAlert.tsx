@@ -30,7 +30,7 @@ const CookiesAlert = () => {
 						oznacza, że zgadzasz się na ich użycie.
 						<Link href="/polityka-prywatnosci">Polityka prywatności</Link>
 					</p>
-					<button onClick={buttonClickHandler}>OK</button>
+					<button onClick={buttonClickHandler}>ok</button>
 				</div>
 			)}
 		</>
