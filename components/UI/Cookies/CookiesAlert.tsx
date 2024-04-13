@@ -6,8 +6,8 @@ const CookiesAlert = () => {
 	const [isClickedOk, setIsClickedOk] = useState(true);
 
 	useEffect(() => {
-		const cookiesAccepted = localStorage.getItem('cookiesOK');
-		if (cookiesAccepted) {
+		const areCookiesAccepted = localStorage.getItem('cookiesOK');
+		if (areCookiesAccepted) {
 			setIsClickedOk(true);
 		} else {
 			setIsClickedOk(false);
