@@ -1,7 +1,9 @@
 'use client';
+
 import { useState, useEffect } from 'react';
 import classes from './CookiesAlert.module.scss';
 import Link from 'next/link';
+
 const CookiesAlert = () => {
 	const [isClickedOk, setIsClickedOk] = useState(true);
 
