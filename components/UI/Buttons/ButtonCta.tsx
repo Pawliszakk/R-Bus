@@ -1,4 +1,5 @@
 'use client';
+
 import classes from './ButtonCta.module.scss';
 import Link from 'next/link';
 import SlideFromBottom from '../Animations/SlideFromBottom';
