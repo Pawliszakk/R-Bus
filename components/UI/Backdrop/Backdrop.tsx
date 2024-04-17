@@ -1,4 +1,5 @@
 'use client';
+
 import { useEffect } from 'react';
 import classes from './Backdrop.module.scss';
 import Portal from '@/lib/Portal';
